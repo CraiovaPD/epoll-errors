@@ -1,0 +1,11 @@
+﻿export declare const DEFAULT_NAMESPACE = "default";
+export declare const USER_NAMESPACE = "users";
+export declare const BUSINESS_NAMESPACE = "business";
+export declare const CALENDAR_NAMESPACE = "calendar";
+export declare const ASSETS_NAMESPACE = "assets";
+export declare const NOTIFICATIONS_NAMESPACE = "notifications";
+export declare const PAYMENTS_NAMESPACE = "payments";
+export declare const ADMIN_NAMESPACE = "admin";
+export declare const ANALYTICS_NAMESPACE = "analytics";
+export declare function loadNovabookerErrors(): void;
+export default loadNovabookerErrors;
