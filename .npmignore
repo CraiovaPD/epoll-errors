@@ -3,4 +3,3 @@ src/
 tsconfig.json
 .gitmodules
 *.gz
-build/
