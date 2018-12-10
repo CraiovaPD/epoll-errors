@@ -1,9 +1,8 @@
 import {IErrorTable} from 'exceptional.js';
-
-import {USER_NAMESPACE} from '../namespaces';
+import {DEBATE_NAMESPACE} from '../namespaces';
 
 export const TABLE: IErrorTable = {
-  namespace: USER_NAMESPACE,
+  namespace: DEBATE_NAMESPACE,
   locale: 'ro',
   errors: {
     0: 'S-a intamplat ceva neprevazut',
@@ -16,6 +15,11 @@ export const TABLE: IErrorTable = {
     7: '',
     8: '',
     9: '',
-    10: ''
+    10: 'Nu am gasit nicio dezbatere cu acest id ${debateId}.',
+    11: 'Nu poti vota de mai multe ori la acelasi subiect.',
+    12: 'Optiunea aleasa pentru vot nu exista.',
+    13: '',
+    14: '',
+    15: ''
   }
 };

@@ -1,9 +1,8 @@
 import {IErrorTable} from 'exceptional.js';
-
-import {USER_NAMESPACE} from '../namespaces';
+import {STORAGE_NAMESPACE} from '../namespaces';
 
 export const TABLE: IErrorTable = {
-  namespace: USER_NAMESPACE,
+  namespace: STORAGE_NAMESPACE,
   locale: 'ro',
   errors: {
     0: 'S-a intamplat ceva neprevazut',
