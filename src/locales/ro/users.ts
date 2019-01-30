@@ -16,6 +16,7 @@ export const TABLE: IErrorTable = {
     7: '',
     8: '',
     9: '',
-    10: ''
+    10: 'Nu exista niciun utilizator inregistrat cu acest numar de telefon ${phone}.',
+    11: 'Nu exista niciun utilizator cu acest id ${id}.'
   }
 };
